@@ -12,5 +12,8 @@
         {
             "path": "../../../../../../../../Documents/programas/Bootstrap/SidebarNavBar/js"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "impulsi"
+    }
 }

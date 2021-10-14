@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "impulsi"
+    "liveServer.settings.multiRootWorkspaceName": "impulsi",
+    "git.ignoreLimitWarning": true
 }

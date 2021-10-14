@@ -34,11 +34,16 @@
                 <!-- Top navigation-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                     <div class="container-fluid">
+                        
                         <button class="btn btn-primary" id="sidebarToggle"><i class="bi bi-text-indent-right"> Menu</i></button>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                                <li class="nav-item"><a><i class="bi bi-bootstrap-fill">  Bootstrap 5</i></a></li>
+                                <li class="nav-item"><a><img src="assets/bootstrap.svg" alt="Bootstrap" width="32" height="32">  Bootstrap 5</i></a></li>
                                 <li class="nav-item active"><a class="nav-link" href="#!"><i class="bi bi-house"></i> Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#!"><i class="bi bi-link-45deg"></i> Link</a></li>
                                 <li class="nav-item dropdown">
@@ -60,7 +65,7 @@
                     <img class="img-fluid col-12" src="img/banner.png" alt="Banner superior">
                     <h1 class="mt-4">Simple Sidebar</h1>
                     <p>
-                        <!-- alt="..." on <img> element -->
+                    
                             The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
                     <p>
                         Make sure to keep all page content within the

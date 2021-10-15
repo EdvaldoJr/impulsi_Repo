@@ -1,0 +1,129 @@
+#footer{
+    padding: 3em 2em;
+}
+
+#footer-top{
+    border-top: 1px solid #7a7a7a;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-bottom: 1px solid #7a7a7a;
+}
+
+/* todas as fontes brancas */
+#footer-top,
+#footer-top i{
+    color: #fff;
+}
+
+#social-icons {
+    text-align: right;
+}
+
+/* formata os ícones */
+#social-icons i{
+    margin-right: 0.6em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#social-icons i:hover{
+    color: #ff6600;
+}
+
+
+/* footer details */
+#footer-details {
+    margin-bottom: 3em;
+}
+
+#Inscr:hover{
+    color: #ff6600;
+    font-size: 1.2em;
+}
+
+#news-container,
+#contact-container,
+#links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+#footer-datails h4 {
+    color: #fff;
+    margin-bottom: 1.5em;
+}
+#contact-container a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#contact-container a:hover {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #ff6600;
+}
+
+
+#links-container li {
+    margin-bottom: 0.5em;
+}
+
+#links-container a {
+    color:#fff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#links-container a:hover {
+    color: #ff6600;
+    font-size: 1.2em;
+}
+
+/* footer bottom */
+#footer-bottom {
+    border-top: 1px solid #7a7a7a;
+    padding-top: 2em;
+}
+
+#footer-bottom i {
+    color: #fff;
+    margin-left: 0.3rem;
+}
+
+#heart:hover {
+    color: #ff3300;
+    font-size: 1.3em;
+}
+
+
+
+/* Ajustando a responsividade para desktop */
+@media (min-width: 768px){
+    #social-icons{
+        padding-right: 2em;
+    }
+    
+    #social-icons i{
+        margin-right: 1.5em;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+
+    #news-container{
+        padding-right: 2em;
+    }
+    #links-container{
+        padding-left: 2em;
+    }
+    #contact-container{
+        padding: 0 2em;
+        border-left: 1px solid #7a7a7a;
+        border-right: 1px solid #7a7a7a;
+    }
+    #pFooter {
+        text-align: right;
+    }
+
+}

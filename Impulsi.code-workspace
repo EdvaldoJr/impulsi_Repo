@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "impulsi"
+		"liveServer.settings.multiRootWorkspaceName": "impulsi",
+		"liveServer.settings.port": 5501
 	}
 }

@@ -25,6 +25,8 @@
         <?php 
             include 'php/header.php';
             include 'php/content.php';
+            include 'php/rodape.php';
+
         ?>     
         
         <!-- Bootstrap core JS-->

@@ -8,11 +8,9 @@
         <title>Impulsi</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/content.css">
 
-        <!-- CSS  -->
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="/Users/Jr/.bitnami/stackman/machines/xampp/volumes/root/htdocs/impulsi/css/footer.css">
-        
         <!-- Bootstrap icons -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         
@@ -24,9 +22,9 @@
         <!-- insere os arquivos do cabeçalho, conteúdo e rodapé -->
         <?php 
             include 'php/header.php';
+            include 'php/topmenu.php';
             include 'php/content.php';
             include 'php/rodape.php';
-
         ?>     
         
         <!-- Bootstrap core JS-->

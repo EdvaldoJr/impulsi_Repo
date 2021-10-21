@@ -22,16 +22,16 @@
             </div>
             <div class="offcanvas-body">
                 <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><img src="icons/atom-solid.svg" alt="Fisica" class="bi" width="30" height="24"> Física</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><img src="icons/flask-solid.svg" alt="Quimice" class="bi" width="30" height="24"> Química</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><img src="icons/subscript-solid.svg" alt="Matemática" class="bi" width="30" height="24"> Matemática</a> 
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-skip-backward"></i> História</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-compass"></i> Geografia</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><img src="icons/circle-question-solid.svg" alt="Matemática" class="bi" width="30" height="24"> Filosofia</a> 
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-chat-quote"></i> Português</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-book"></i> Literatura</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-translate"></i> Inglês</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-pencil-square"></i> Redação</a>
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><img src="icons/atom-solid.svg" alt="Fisica" class="bi" width="30" height="24"> Física</a>
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><img src="icons/flask-solid.svg" alt="Quimica" class="bi" width="30" height="24"> Química</a>
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><img src="icons/subscript-solid.svg" alt="Matemática" class="bi" width="30" height="24"> Matemática</a> 
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-skip-backward"></i> História</a>
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-compass"></i> Geografia</a>
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><img src="icons/circle-question-solid.svg" alt="Matemática" class="bi" width="30" height="24"> Filosofia</a> 
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-chat-quote"></i> Português</a>
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-book"></i> Literatura</a>
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-translate"></i> Inglês</a>
+                    <a class="mat list-group-item list-group-item-action list-group-item-light p-2" href="#!"><i class="bi bi-pencil-square"></i> Redação</a>
                 </div>
                 
                 <div class="dropdown mt-3">

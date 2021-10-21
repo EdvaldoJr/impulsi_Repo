@@ -1,8 +1,8 @@
 <!-- conteúdo -->
 <main class="conteudo d-flex d-inline-block">
         <!-- side bar -->
-        <button class="btn btn-Dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="offcanvasExample">
-            <i class="bi bi-arrow-bar-right"></i>
+        <button class="btn btn-Dark btn-sidebar" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="offcanvasExample">
+            <i class="btn-sidebar bi bi-arrow-bar-right"></i>
         </button>
         <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="offcanvasExampleLabel bg-dark">
             <div class="offcanvas-header">
@@ -47,5 +47,4 @@
             </div>
         </div>
         <h2>Conteúdo</h2>
-        <i class="fa fa-flask" aria-hidden="true"></i>
     </main>

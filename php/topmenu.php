@@ -21,7 +21,7 @@
                 </li><li class="nav-item"><a class="nav-link disabled"><i class="bi bi-ui-checks"></i> Estudos</a></li>
             </ul>
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Vídeos aulas..." aria-label="Buscar">
+                <input class="form-control me-2" type="search" placeholder="Vídeo aula..." aria-label="Buscar">
                 <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
             </form>
         </div>

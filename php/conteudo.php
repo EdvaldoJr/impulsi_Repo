@@ -1,5 +1,5 @@
 <!-- conteúdo -->
-<main class="conteudo d-flex d-inline-block">
+<main>
     <!-- side bar -->
     <button class="btn btn-Dark btn-sidebar" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="offcanvasExample">
         <i class="btn-sidebar bi bi-arrow-bar-right"></i>
@@ -47,7 +47,7 @@
         </div>
     </div>
     
-    <section class="intro container">
+    <section class="container intro bg-amarelo-claro">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -85,5 +85,59 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>  
+    </section>
+
+    <section class="container planos container bg-whitesmoke">
+      <h2>Nossos Planos</h2>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="img/card1.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Plano 1</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum optio molestias error iure sunt voluptates ipsa deleniti eveniet, vero exercitationem qui at nulla eos a reprehenderit cum minus dicta atque.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="img/card2.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Plano 2</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum optio molestias error iure sunt voluptates ipsa deleniti eveniet, vero exercitationem qui at nulla eos a reprehenderit cum minus dicta atque.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="img/card3.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Plano 3</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum optio molestias error iure sunt voluptates ipsa deleniti eveniet, vero exercitationem qui at nulla eos a reprehenderit cum minus dicta atque.
+              </p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="container concursos d-block bg-cinza-morno font-whitesmoke">
+      <h2>Próximos concursos</h2>
+      <p>ENEM 2021</p>
+
+    </section>
+
+    <section class="container depoimentos d-block bg-secundary-color font-whitesmoke">
+      <h2>Depoimentos</h2>
+      <p>Veja quem foi aprovado!!!</p>
+    </section>
+
+    <section class="container matarial  bg-marrom-escuro font-whitesmoke">
+      <h2>Material didático</h2>
+      <p>Aproveite o material gratuito!!!</p>
     </section>
 </main>

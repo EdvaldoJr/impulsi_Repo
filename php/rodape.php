@@ -1,5 +1,4 @@
 <!-- Rodapé -->
-
     <footer class="rodape d-flex flex-wrap justify-content-between align-items-center py-2  border-top bg-dark" >
         <div class="col-md-6 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">

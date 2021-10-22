@@ -14,7 +14,7 @@ ul, ol, li{
 }
 
 /*Paleta de cores*/
-/* fundo */
+/* Cor de fundo */
 .bg-primary-color{
     background-color: #090909;
 }
@@ -35,40 +35,63 @@ ul, ol, li{
     background-color: #212121;
 }
 
+.bg-marrom-escuro{
+    background-color:#1b1d1e;
+} 
+
+.bg-cinza-claro{
+    background-color: #7a7a7a;
+} 
+
+.bg-cinza-morno{
+    background-color: #5E6D70;
+}
+
+.bg-amarelo-claro{
+    background-color: #F8EDDB;
+}
+
+
+.bg-whitesmoke{
+    background-color: whitesmoke;
+}
+
+
+
 /* fonte */
-.primary-color{
+.fonte-primary-color{
     color: #090909;
 }
 
-secundary-color{
+.font-secundary-color{
     color: #ff6600;
 }
 
-.terciary-color{
+.font-terciary-color{
     color: #ff3300;
 }
 
-.dark-color{
+.font-dark-color{
     color: #2E2E2E;
 }
 
-.dark-elegant-color{
+.font-dark-elegant-color{
     color: #212121;
 }
 
-.cinza-claro{
+.font-cinza-claro{
     color: #7a7a7a;
 }
 
-
-/* conteudo */
-.conteudo{
-    height: 80vh;
-    width: 100%vh;
-    padding-left: 10px;
-    background-color: whitesmoke;
-    color:black;
+.font-whitesmoke{
+    color: whitesmoke;
 }
+
+
+
+
+/* intro */
+
 
 .carousel-caption h5{
     font-size: 2.5em;
@@ -91,16 +114,12 @@ secundary-color{
     font-size: 3em;
 }
 
-.mat :hover{
-    color: #ff6600;
-    font-size: 1.1em;
-}
-
-.rodape{  
+/* .rodape{  
     background-color: #2e2e2e;
-    padding: 20px 40px;
+    padding: 20px 40px; 
     color:white;
-}
+} 
+*/
 
 .social-icons{
     fill: white;

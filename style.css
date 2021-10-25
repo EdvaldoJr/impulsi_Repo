@@ -9,23 +9,28 @@ body{
     padding-top: 80px;
     font-family: "Open Sans", sans-serif;
 }
-ul, ol, li{
+ul, ol, li, a{
     list-style: none;
+    text-decoration: none;
 }
 
-/*Paleta de cores*/
+/*temas de cores*/
 /* Cor de fundo */
-.bg-primary-color{
+
+/* Tema Impulsi */
+.bg-black-color{
     background-color: #090909;
 }
 
-.bg-secundary-color{
+.titulo-red-color{
+    background-color: #ff3300;
+}
+
+
+.subtitul-laranja-color{
     background-color: #ff6600;
 }
 
-.bg-terciary-color{
-    background-color: #ff3300;
-}
 
 .bg-dark-color{
     background-color: #2E2E2E;
@@ -87,12 +92,52 @@ ul, ol, li{
     color: whitesmoke;
 }
 
+/* Tema Dark */
+.bg-elegant-color-dark{
+    background-color: #212121;
+}
 
+.tituloElegantColor{
+    background-color: #2E2E2E ; 
+}
+
+.subTituloStylishColor{
+    color: whitesmoke;
+}
+
+/* Tema Impulsi */
+.bg-black-color{
+    background-color: #090909;
+}
+
+.titulo-red-color{
+    background-color: #ff3300;
+}
+
+.subtitul-laranja-color{
+    background-color: #ff6600;
+}
+
+/* Tema oceano */
+.bg-unique-color-dark{
+    background-color: #1c2331;
+}
+
+.titulo-unique-color{
+    color: #3f729b;
+}
+
+/* Tema exército */
+.bg-special-color-dark{
+    background-color: #263238;
+}
+
+.titulo-special-color{
+    background-color: #37474f;
+}
 
 
 /* intro */
-
-
 .carousel-caption h5{
     font-size: 2.5em;
     text-shadow: #090909 2px 2px;
@@ -114,13 +159,4 @@ ul, ol, li{
     font-size: 3em;
 }
 
-/* .rodape{  
-    background-color: #2e2e2e;
-    padding: 20px 40px; 
-    color:white;
-} 
-*/
 
-.social-icons{
-    fill: white;
-} 

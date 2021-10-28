@@ -132,10 +132,13 @@ ul, ol, li, a{
     background-color: #263238;
 }
 
-.titulo-special-color{
-    background-color: #37474f;
+.bg-cinza-claro-color{
+    background-color: black;
 }
 
+.titulo-special-color{
+    background-color: #7f7f7f;
+}
 
 /* intro */
 .carousel-caption h5{

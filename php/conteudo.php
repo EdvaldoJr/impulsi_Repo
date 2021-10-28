@@ -123,28 +123,50 @@
           </div>
         </div>
     </div>
+    <hr>
   </section>
 
-  <section class="metodo container bg-unique-color-dark font-whitesmoke py-2">  
-    <div class="col-12 col-md-6 col-lg-4">
-      <h2>1) Método</h2>
-      <p>Aprenda a estudar</p>
-      <ul>
-        <li><a href="">Gestão de tempo</a></li>
-        <li><a href="">Organização de conteúdos</a></li>
-        <li><a href="">Roteiro de estudos</a></li>
-        <li><a href="">Definição de metas diárias e mensais</a></li>
-        <li><a href="">Plano de estudos</a></li>
-        <li><a href="">Checklist de assuntos estudados</a></li>
-        <li><a href="">Revisão periódica</a></li>
-        <li><a href="">Método Fyemman</a></li>
-      </ul>
-    </div>   
+  <section class="metodo container bg-whitesmoke ">  
+    <div class="col-12">
+      <head>
+        <h2>Método</h2>
+        <hr>
+        <p>Aprenda a estudar - Accordion aqui</p>
+      </head>  
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <ul>
+              <li><a href="">Gestão de tempo</a></li>
+              <li><a href="">Definição de metas</a></li>
+              <li><a href="">Roteiro de estudos</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+                <li><a href="">Plano de estudos</a></li>
+                <li><a href="">Organização de conteúdos</a></li>
+                <li><a href="">Checklist de estudos</a></li>
+              </ul>
+          </div>
+          <div class="col">
+          <ul>
+                <li><a href="">Revisão periódica</a></li>
+                <li><a href="">Método Fyemman</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>   
+    </div>
   </section>
 
-  <section class="material container bg-marrom-escuro font-whitesmoke py-2">    
-    <h2>2) Material didático</h2>
-    <p>Aproveite o material gratuito!!!</p>
+  <section class="material container bg-elegant-color-dark font-whitesmoke">    
+    <head>
+      <h2>Material didático</h2>
+      <hr>
+      <p>Aproveite o material gratuito!!!</p>
+    </head>
+    
     <ul>
       <li><a href="">Temas mais cobrados</a></li>
       <li><a href="">Edital verticalizado</a></li>
@@ -157,43 +179,61 @@
     </ul>  
   </section>
 
-  <section class="concursos container bg-special-color-dark titulo-special-color py-2">  
-    <div class="col-12 col-md-6 col-lg-4">
-      <h2>3) Team</h2>
-      <p>Estude com doutores</p>
+  <section class="team container bg-whitesmoke">  
+    <div class="col-12">
+      <head>
+        <h2>Team</h2>
+        <hr>
+        <p>Estude com doutores</p>
+      </head>
     </div>   
   </section>
   
-  <section class="depoimentos container bg-elegant-color-dark font-whitesmoke py-2">
-    <div class="col-12 col-md-6 col-lg-4">
-      <h2>4) Depoimentos</h2>
-      <p>Veja quem foi aprovado!!!</p>
+  <section class="depoimentos container bg-elegant-color-dark font-whitesmoke">
+    <div class="col-12">
+      <head>
+        <h2>Depoimentos</h2>
+        <hr>
+        <p>Veja quem foi aprovado!!!</p>
+      </head>
+    </div>
+       
+  </section>
+
+  <section class="servicos container bg-whitesmoke">
+    <div class="col-12 col-md-12 col-lg-12">
+      <head>
+        <h2>Nossos serviços</h2>
+        <hr>
+        <p>Estude da forma correta</p>
+      </head>  
+        <ul>
+          <li><a href="">Mentorias</a></li>
+          <li><a href="">Cursos</a></li>
+          <li><a href="">Central de dúvidas</a></li>
+          <li><a href="">Diagnóstico pedagógico</a></li>
+          <li><a href="">Plano de estudos</a></li>
+          <li><a href="">Simulados</a></li>
+        </ul>
     </div>   
   </section>
 
-  <section class="servicos container subtitul-laranja-color font-whitesmoke py-2">
-    <div class="col-12 col-md-6 col-lg-4">
-      <h2>5) Nossos serviços</h2>
-      <p>Estude da forma correta</p>
-      <ul>
-        <li><a href="">Mentorias</a></li>
-        <li><a href="">Cursos</a></li>
-      </ul>
-    </div>   
-  </section>
-
-  <section class="concursos container bg-cinza-morno font-whitesmoke py-2">  
-    <div class="col-12 col-md-6 col-lg-4">
-      <h2>7) Próximos concursos</h2>
+  <section class="concursos container bg-elegant-color-dark font-whitesmoke">  
+    <head>
+      <h2>Próximos concursos</h2>
+      <hr>
       <p>ENEM 2021</p>
+    </head>
+    <div class="col-12 col-md-6 col-lg-4">
     </div>   
   </section>
   
-  <section class="concursos container bg-elegant-color-dark font-whitesmoke py-2">  
-    <div class="col-12 col-md-6 col-lg-4">
-      <h2>8) Tire suas dúvidas</h2>
+  <section class="duvidas container bg-whitesmoke">  
+    <div class="col-12 col-md-12 col-lg-12">
+      <h2>Tire suas dúvidas</h2>
+      <hr>
       <p>Contatos</p>
-    </div>   
+    </div>
   </section>
     
 </main>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Impulsi- Assuntos estudados</title>
+    <title>Impulsi- Cursos</title>
     
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
@@ -20,6 +20,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Assuntos estudados</h1>
+    <h1>Cursos</h1>
 </body>
-</html>
+</html> 

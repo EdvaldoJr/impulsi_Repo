@@ -22,13 +22,13 @@
     
     <body>
         <div class="site">
-            <!-- inclui o menu superior -->
-            <?php   
-                include 'php/topmenu.php';
-            ?>
-            <!-- inclui o corpo do site  -->
             <div class="base-geral">
                 <?php 
+                    // inclui o menu superior
+                    include 'php/topmenu.php';
+                    include 'php/sidebar.php';
+                    
+                    // atribui os links as páginas
                     $link= isset($_GET["link"])?$_GET["link"]:1;
                     $pag[1]="php/home.php";
                     $pag[2]="php/cursos.php";
@@ -50,9 +50,16 @@
                     $pag[18]="php/exerciciosResolvidos.php";
                     $pag[19]="php/bancoProvas.php";
                     
-                    include $pag[$link];
+                    // verifica se o arquivo existe; se não existir joga para home.
+                    if(file_exists($pag[$link])){
+                        include $pag[$link];
+                    }else{
+                        include 'php/home.php';
+                    }
+                    
+                    // inclui o rodapé
+                    include 'php/rodape.php';
                 ?>  
-            <?php include 'php/rodape.php'; ?>     
             </div>
         </div>
         <!-- inclui o rodapé -->

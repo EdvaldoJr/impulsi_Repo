@@ -19,7 +19,7 @@
         <!-- CSS projeto -->
         <link rel="stylesheet" href="style.css">
     </head>
-    
+    <!-- corpo do site -->
     <body>
         <div class="site">
             <div class="base-geral">
@@ -49,6 +49,7 @@
                     $pag[17]="php/provasAnteriores.php";
                     $pag[18]="php/exerciciosResolvidos.php";
                     $pag[19]="php/bancoProvas.php";
+                    $pag[20]="php/clientes.php";
                     
                     // verifica se o arquivo existe; se não existir joga para home.
                     if(file_exists($pag[$link])){

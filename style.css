@@ -102,18 +102,7 @@ ul, ol, li, a{
     color: whitesmoke;
 }
 
-/* Tema Impulsi */
-.bg-black-color{
-    background-color: rgba(8, 3, 3, 0.1);
-}
 
-.titulo-red-color{
-    background-color: #ff3300;
-}
-
-.subtitul-laranja-color{
-    background-color: #ff6600;
-}
 
 /* Tema oceano */
 .bg-unique-color-dark{

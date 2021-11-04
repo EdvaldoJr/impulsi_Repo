@@ -50,6 +50,10 @@
                     $pag[18]="php/exerciciosResolvidos.php";
                     $pag[19]="php/bancoProvas.php";
                     $pag[20]="php/clientes.php";
+                    $pag[21]="system/login.php";
+                    $pag[22]="system/logout.php";
+                    $pag[23]="system/signup.php";
+
                     
                     // verifica se o arquivo existe; se não existir joga para home.
                     if(file_exists($pag[$link])){

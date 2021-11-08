@@ -35,6 +35,7 @@
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="php/cursos.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-person-circle"></i> Aluno</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="index.php?link=21"><i class="bi bi-box-arrow-in-right"></i> Entrar</a></li>
+                    <li><a class="dropdown-item" href="index.php?link=24"><i class="bi bi-file-earmark-person"></i> Cadastrar</a></li>
                     <li><a class="dropdown-item" href="index.php?link=3"><i class="bi bi-columns-gap"></i> Painel do aluno</a></li>
                     <li><a class="dropdown-item" href="index.php?link=4"><i class="bi bi-signpost-split"></i> Roteiro de estudos</a></li>
                     <li><a class="dropdown-item" href="index.php?link=5"><i class="bi bi-calendar-day"></i> Agenda do candidato</a></li>

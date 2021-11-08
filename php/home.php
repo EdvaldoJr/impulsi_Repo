@@ -80,10 +80,10 @@
     <hr>
   </section>
 
-  <section class="metodo container bg-whitesmoke ">  
+  <section class="metodo container bg-img-home">  
     <div class="col-12">
       <head>
-        <h2>Método</h2>
+        <h2 class="titulo">Método</h2>
         <hr>
         <p>Aprenda a estudar - Accordion aqui</p>
       </head>  

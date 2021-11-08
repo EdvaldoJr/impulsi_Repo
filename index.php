@@ -18,6 +18,7 @@
         
         <!-- CSS projeto -->
         <link rel="stylesheet" href="style.css">
+        
     </head>
     <!-- corpo do site -->
     <body>
@@ -53,6 +54,7 @@
                     $pag[21]="system/login.php";
                     $pag[22]="system/logout.php";
                     $pag[23]="system/signup.php";
+                    $pag[24]="system/cadastrar.php";
 
                     
                     // verifica se o arquivo existe; se não existir joga para home.

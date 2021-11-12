@@ -9,9 +9,13 @@ body{
     padding-top: 80px;
     font-family: "Open Sans", sans-serif;
 }
-ul, ol, li, a{
+ul, ol, li{
     list-style: none;
-    text-decoration: none;
+}
+
+a, u {
+    text-decoration: none  !important;
+    list-style: disc;
 }
 
 /*temas de cores*/
@@ -65,10 +69,8 @@ ul, ol, li, a{
 
 /* fonte */
 .font-primary{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Archivo Black';
 }
-
-
 
 .fonte-primary-color{
     color: #090909;
@@ -111,8 +113,6 @@ ul, ol, li, a{
     color: whitesmoke;
 }
 
-
-
 /* Tema oceano */
 .bg-unique-color-dark{
     background-color: #1c2331;
@@ -131,7 +131,7 @@ ul, ol, li, a{
     background-color: black;
 }
 
-.titulo-special-color{
+.bg-special-color{
     background-color: #7f7f7f;
 }
 
@@ -178,18 +178,46 @@ ul, ol, li, a{
 .metodo{
     width: 100vw;
     height: 100vh;
-    background: url("img/bgHome.png");
     background-size: contain;
     overflow-x: hidden;
     background-repeat: no-repeat;
 }
 
 .titulo{
-    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: whitesmoke;
-    text-shadow: #263238 2px 2px;
-    background-color: #ff6600;
+    font-family:'Archivo Black';
+    color: #ff6600;
+    text-shadow:whitesmoke 2px 2px;
+    background-color: #161515;
     opacity: 0.9;
     border-radius: 15px 50px;
     padding: 0.5em;
+}
+
+.subtitulo{
+    font-family: 'Yantramanav';
+    letter-spacing: 0.3em;
+    color: #090909;
+    text-shadow:#F8EDDB 2px 2px;
+    padding-left: 30px;
+}
+
+.corpo-texto{
+    font-family:'Open Sans' ;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+/* Home- Objetivos */
+.objetivos{
+    width: 100vw;
+    height: 120vh;
+    /* background-image: url("img/Objetivos.png");
+    background-repeat: no-repeat; */
+}
+
+.img-wrapper{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    border-sizing:border-box;
 }

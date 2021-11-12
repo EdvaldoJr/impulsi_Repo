@@ -172,43 +172,22 @@
     <hr>
   </section>
 
-  <section class="objetivos container bg-whitesmoke">
+  <section class="objetivos container  bg-whitesmoke">
     <h1 class="titulo">Defina seus objetivos</h1>
     <h3 class="subtitulo"> Aonde você quer chegar?</h3>
     <div class="img-wrapper container">
-      <svg version="1.1" viewBox="0 0 409.9 201.3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <image width="409.9" height="201.3" preserveAspectRatio="none" xlink:href="img/Objetivos.png"/>
-        <g fill-opacity="0">
-          <!-- 1 -->
-          <a xlink:title="O que eu quero?" xlink:href="#">
-            <ellipse cx="157.5" cy="152.2" rx="28.22" ry="27.91"/>
-          </a>
-          <!-- 2 -->
-          <a xlink:title="O que fazer?" xlink:href="#">
-            <ellipse cx="298.4" cy="125.3" rx="23.48" ry="24.88"/>
-          </a>
-          <!-- 3 -->
-          <a xlink:title="Qual metologia seguir?" xlink:href="#">
-            <ellipse cx="116.1" cy="90.85" rx="19.83" ry="20.6"/>
-          </a>
-          <!-- 4 -->
-          <a xlink:title="Plano de estudos" xlink:href="#">
-            <ellipse cx="214.6" cy="72.87" rx="14.5" ry="15.43"/>
-          </a>
-          <!-- 5 -->
-          <a xlink:title="Gestão de tempo" xlink:href="#">
-            <ellipse cx="148.8" cy="55.19" rx="12.68" ry="12.37"/>    
-          </a>
-          <!-- 6 -->
-          <a xlink:title="Revisão de conteúdo" xlink:href="#">
-            <ellipse cx="251.2" cy="55.04" rx="9.635" ry="9.17"/>  
-          </a>
-          <!-- 7 -->
-          <a xlink:title="Universidade" xlink:href="#">
-            <rect x="336.7" y="38.14" width="56.12" height="52.4"/>
-          </a>
-        </g>
-      </svg>
+      <!-- <img src="img/Objetivos.png" class="img-fluid py-3" usemap="#objetivo-map" alt=""> -->
+      <img src="img/Objetivos.png" class="img-fluid" usemap="#objetivos-map">
+
+      <map name="objetivos-map">
+          <area target="_blank" alt="O que eu quero?" title="O que eu quero?" href="" coords="400em , 400em, 100" shape="circle">
+          <area target="_blank" alt="O quer fazer?" title="O quer fazer?" href="" coords="790, 391, 100" shape="circle">
+          <area target="_blank" alt="Qual metodologia seguir?" title="Qual metodologia seguir?" href="" coords="300, 280, 59" shape="circle">
+          <area target="_blank" alt="Planos de estudos" title="Planos de estudos" href="" coords="560, 190, 44" shape="circle">
+          <area target="_blank" alt="Gestão de tempo" title="Gestão de tempo" href="" coords="390, 140, 41" shape="circle">
+          <area target="_blank" alt="Revisar conteúdo" title="Revisar conteúdo" href="" coords="658, 140, 29" shape="circle">
+          <area target="_blank" alt="Universidade" title="Universidade" href="" coords="780, 100, 1205, 221" shape="rect">
+      </map>
     </div>
     <hr>
   </section>

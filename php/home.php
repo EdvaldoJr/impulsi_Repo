@@ -1,7 +1,7 @@
 <!-- conteúdo -->
 <main>
   <!-- Carousel -->
-  <section class="container intro d-flex bg-amarelo-claro">
+  <section class="container intro d-flex">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -41,8 +41,11 @@
     </div>  
   </section>
 
-  <section class="container planos container bg-whitesmoke">
-    <h2>Nossos Planos</h2>
+  <section class="planos container section-light">
+    <head>
+      <h1 class="titulo-dark mt-3">Nossos Planos</h1>
+      <h3 class="subtitulo-dark">Estude conosco!</h3>
+    </head>
     <div class="row">
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card">
@@ -77,30 +80,27 @@
           </div>
         </div>
     </div>
-    <hr>
   </section>
 
-  <section class="metodo container">  
+  <section class="metodo container section-dark p-2">  
     <div class="col-12">
       <head>
-        <h2 class="titulo">Conheça nossos métodos</h2> 
-        <h3 class="subtitulo">Aprenda a estudar</h3>
+        <h1 class="titulo-light pt-2">Conheça nossa métodologia</h1> 
+        <h3 class="subtitulo-light">Aprenda a estudar</h3>
       </head>  
-      <div class="container">
+      <div class="container corpo-texto-dark">
         <div class="row align-items-start">
-          <div class="col corpo-texto">
-            <article>
+          <div class="col corpo-texto-light">
+            <article class="">
               <p>
-                A metodologia impulsi é inspirada em dois métodos inovadores de aprendizagem:
+                O impulsi utiliza duas metodologias inovadoras de aprendizagem:
               </p>
             </article>
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action active" aria-current="true"> Métodos:</a>
-                <a href="#" class="list-group-item list-group-item-action"> Método Feymman</a>
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true""> Método Feymman</a>
                 <a href="#" class="list-group-item list-group-item-action"> PBL(Problem based learning)</a>
                 <!-- <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a> -->
             </div>
-              
           </div>
           <div class="col texto">
             <div class="accordion" id="accordionMetodo">
@@ -167,14 +167,19 @@
           </div>
           </div>
         </div>
-      </div>   
+      </div>
+      <br>
+      <!-- botão saiba mais -->
+      <div class="d-grid gap-2 p-3">
+        <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+      </div>
     </div>
     <hr>
   </section>
 
-  <section class="objetivos container bg-whitesmoke">
-    <h1 class="titulo">Defina seus objetivos</h1>
-    <h3 class="subtitulo"> Aonde você quer chegar?</h3>
+  <section class="objetivos container section-light p-2">
+    <h1 class="titulo-dark">Defina seus objetivos</h1>
+    <h3 class="subtitulo-dark"> Aonde você quer chegar?</h3>
     <div class="img-wrapper container">
       <svg version="1.1" viewBox="0 0 409.9 201.3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <image width="409.9" height="201.3" preserveAspectRatio="none" xlink:href="img/Objetivos.png"/>
@@ -209,17 +214,18 @@
           </a>
         </g>
       </svg>
+      <div class="d-grid gap-2">
+        <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+      </div>
     </div>
-    <hr>
   </section>
 
-  <section class="material container  bg-elegant-color-dark font-whitesmoke py=2">    
+  <section class="material container section-dark pt-2">   
     <head>
-      <h1 class="titulo">Material didático</h1>
-      <hr>
-      <h3 class="subtitulo font-whitesmoke">Aproveite o  nosso material!!!</h3>
+      <h1 class="titulo-light">Material didático</h1>
+      <h3 class="subtitulo subtitulo-light">Nosso material</h3>
     </head>
-    <div class="row">
+    <div class="row corpo-texto-light">
       <div class="col">
         <ol class="list-group list-group-numbered">
           <li class="list-group-item"><a href="">Temas mais cobrados</a></li>
@@ -236,37 +242,43 @@
         <h2>Segunda coluna</h2>
       </div>
     </div>
+    <div class="d-grid gap-2 p-3">
+      <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+    </div>
     <hr>
   </section>
 
-  <section class="team container bg-whitesmoke">  
+  <section class="team container section-light">  
     <div class="col-12">
       <head>
-        <h2>Team</h2>
-        <hr>
-        <p>Estude com doutores</p>
+        <h1 class="titulo-dark">Team</h1>
+        <h3 class="subtitulo-dark">Estude com doutores</h3>
       </head>
     </div>
-    <hr>   
+    <div class="d-grid gap-2 p-3">
+      <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+    </div>
   </section>
   
-  <section class="depoimentos container bg-elegant-color-dark font-whitesmoke">
+  <section class="depoimentos container section-dark">
+    <hr>
     <div class="col-12">
       <head>
-        <h2>Depoimentos</h2>
-        <hr>
-        <p>Veja quem foi aprovado!!!</p>
+        <h1 class="titulo-light">Depoimentos</h1>
+        <h3 class="subtitulo-light" >Veja os aprovados!!!</h3>
       </head>
     </div>
-    <hr>   
+    <div class="d-grid gap-2 p-3">
+        <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+      </div>
+    <hr>
   </section>
 
-  <section class="servicos container bg-whitesmoke">
+  <section class="servicos container section-light">
     <div class="col-12 col-md-12 col-lg-12">
       <head>
-        <h2>Nossos serviços</h2>
-        <hr>
-        <p>Estude da forma correta</p>
+        <h1 class="titulo-dark">Nossos serviços</h1>
+        <h3 class="subtitulo-dark">Estude da forma correta!</h3>
       </head>  
         <ul>
           <li><a href="">Mentorias</a></li>
@@ -276,26 +288,30 @@
           <li><a href="">Plano de estudos</a></li>
           <li><a href="">Simulados</a></li>
         </ul>
+    <div class="d-grid gap-2 p-3">
+      <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
     </div>
-    <hr>
   </section>
 
-  <section class="concursos container bg-elegant-color-dark font-whitesmoke">  
+  <section class="concursos container section-dark">
+  <hr>  
     <head>
-      <h2>Próximos concursos</h2>
-      <hr>
-      <p>ENEM 2022</p>
+      <h1 class="titulo-light">Próximos concursos</h1>
+      <h3 class="subtitulo-light">Saia na frente!</h3>
     </head>
-    <div class="col-12 col-md-6 col-lg-4">
-    </div>
+    <div class="d-grid gap-2 p-3">
+        <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+      </div>
     <hr>   
   </section>
   
-  <section class="duvidas container bg-whitesmoke">  
-    <div class="col-12 col-md-12 col-lg-12">
-      <h2>Tire suas dúvidas</h2>
-      <hr>
-      <p>Contatos</p>
+  <section class="duvidas container section-light">  
+    <head class="col-12 col-md-12 col-lg-12">
+      <h1 class="titulo-dark">O que você precisa saber!</h1>
+      <h3 class="subtitulo-dark">Tire suas dúvidas!</h3>
+    </head>
+    <div class="d-grid gap-2 p-3">
+      <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
     </div>
   </section>
     

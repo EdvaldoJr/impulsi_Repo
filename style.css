@@ -35,38 +35,6 @@ a, u {
     background-color: #ff6600;
 }
 
-/* outras cores de fundo */
-.bg-dark-color{
-    background-color: #2E2E2E;
-}
-
-.bg-dark-elegant-color{
-    background-color: #212121;
-}
-
-.bg-marrom-escuro{
-    background-color:#1b1d1e;
-} 
-
-.bg-cinza-claro{
-    background-color: #7a7a7a;
-} 
-
-.bg-cinza-morno{
-    background-color: #5E6D70;
-}
-
-.bg-amarelo-claro{
-    background-color: #F8EDDB;
-}
-
-.bg-whitesmoke{
-    background-color: whitesmoke;
-}
-
-
-
-
 /* fonte */
 .font-primary{
     font-family: 'Archivo Black';
@@ -84,56 +52,10 @@ a, u {
     color: #ff3300;
 }
 
-.font-dark-color{
-    color: #2E2E2E;
-}
-
-.font-dark-elegant-color{
-    color: #212121;
-}
-
-.font-cinza-claro{
-    color: #7a7a7a;
-}
-
 .font-whitesmoke{
     color: whitesmoke;
 }
 
-/* Tema Dark */
-.bg-elegant-color-dark{
-    background-color: #212121;
-}
-
-.tituloElegantColor{
-   color: #2E2E2E ; 
-}
-
-.subTituloStylishColor{
-    color: whitesmoke;
-}
-
-/* Tema oceano */
-.bg-unique-color-dark{
-    background-color: #1c2331;
-}
-
-.titulo-unique-color{
-    color: #3f729b;
-}
-
-/* Tema exército */
-.bg-special-color-dark{
-    background-color: #263238;
-}
-
-.bg-cinza-claro-color{
-    background-color: black;
-}
-
-.bg-special-color{
-    background-color: #7f7f7f;
-}
 
 /* intro */
 .carousel-caption h5{
@@ -183,30 +105,6 @@ a, u {
     background-repeat: no-repeat;
 }
 
-.titulo{
-    font-family:'Archivo Black';
-    color: #ff6600;
-    text-shadow:whitesmoke 2px 2px;
-    background-color: #161515;
-    opacity: 0.9;
-    border-radius: 15px 50px;
-    padding: 0.5em;
-}
-
-.subtitulo{
-    font-family: 'Yantramanav';
-    letter-spacing: 0.3em;
-    color: #090909;
-    text-shadow:#F8EDDB 2px 2px;
-    padding-left: 30px;
-}
-
-.corpo-texto{
-    font-family:'Open Sans' ;
-    font-size: 32px;
-    text-decoration: none;
-}
-
 /* Home- Objetivos */
 .objetivos{
     width: 100vw;
@@ -219,5 +117,64 @@ a, u {
     width: 100vw;
     height: 100vh;
     padding: 10px;
-    border-sizing:border-box;
+    border:border-box;
+}
+
+/* Settings */
+/* dark */
+.section-dark{
+    background-color: #222831;
+    font-size: 0;
+}
+
+.titulo-light{
+    font-family:'Archivo Black';
+    color:white;
+    border-bottom: 1px solid #a9a9a9;
+    padding-top: 0.5em;
+}
+
+.subtitulo-light{
+    font-family: 'Yantramanav';
+    letter-spacing: 0.65em;
+    color: #a9a9a9;
+    padding-left: 0.2em;
+}
+
+.corpo-texto-light{
+    font-family:'Open Sans' ;
+    font-size: 32px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* light */
+.section-light{
+    background-color:whitesmoke;
+}
+
+.titulo-dark{
+    font-family:'Archivo Black';
+    color:#090909;
+    border-bottom: 1px solid #a9a9a9;
+    padding-top: 0.5em;
+}
+
+.subtitulo-dark{
+    font-family: 'Yantramanav';
+    letter-spacing: 0.65em;
+    color: #a9a9a9;
+    padding-left: 0.2em;
+}
+
+.corpo-texto-dark{
+    font-family:'Open Sans' ;
+    font-size: 32px;
+    color: #090909;
+    text-decoration: none;
+}
+
+/* btn-action */
+.btn-action{
+    background-color: #ff6600 !important;
 }

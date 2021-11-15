@@ -1,7 +1,7 @@
 <!-- conteúdo -->
 <main>
   <!-- Carousel -->
-  <section class="container intro d-flex">
+  <section class="container intro d-flex justify-content-center">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -41,9 +41,9 @@
     </div>  
   </section>
 
-  <section class="planos container section-light">
+  <section class="planos container pb-2 mb-3 mt-3 section-light">
     <head>
-      <h1 class="titulo-dark mt-3">Nossos Planos</h1>
+      <h1 class="titulo-dark">Nossos Planos</h1>
       <h3 class="subtitulo-dark">Estude conosco!</h3>
     </head>
     <div class="row">
@@ -82,7 +82,7 @@
     </div>
   </section>
 
-  <section class="metodo container section-dark p-2">  
+  <section class="metodo container  mb-3 section-dark ">  
     <div class="col-12">
       <head>
         <h1 class="titulo-light pt-2">Conheça nossa métodologia</h1> 
@@ -91,7 +91,7 @@
       <div class="container corpo-texto-dark">
         <div class="row align-items-start">
           <div class="col corpo-texto-light">
-            <article class="">
+            <article>
               <p>
                 O impulsi utiliza duas metodologias inovadoras de aprendizagem:
               </p>
@@ -170,14 +170,14 @@
       </div>
       <br>
       <!-- botão saiba mais -->
-      <div class="d-grid gap-2 p-3">
-        <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+      <div class="d-grid">
+        <button class="btn btn-primary" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
       </div>
     </div>
     <hr>
   </section>
 
-  <section class="objetivos container section-light p-2">
+  <section class="objetivos container mb-3 section-light">
     <h1 class="titulo-dark">Defina seus objetivos</h1>
     <h3 class="subtitulo-dark"> Aonde você quer chegar?</h3>
     <div class="img-wrapper container">
@@ -220,28 +220,135 @@
     </div>
   </section>
 
-  <section class="material container section-dark pt-2">   
+  <section class="material container section-color-blue">   
     <head>
       <h1 class="titulo-light">Material didático</h1>
       <h3 class="subtitulo subtitulo-light">Nosso material</h3>
     </head>
     <div class="row corpo-texto-light">
-      <div class="col">
-        <ol class="list-group list-group-numbered">
-          <li class="list-group-item"><a href="">Temas mais cobrados</a></li>
-          <li class="list-group-item"><a href="">Edital verticalizado</a></li>
-          <li class="list-group-item"><a href="">Exercícios resolvidos</a></li>
-          <li class="list-group-item"><a href="">Simulados</a></li>
-          <li class="list-group-item"><a href="">Vídeo aulas</a></li>
-          <li class="list-group-item"><a href="">Video resoluções</a></li>
-          <li class="list-group-item"><a href="">PDF</a></li>
-          <li class="list-group-item"><a href="">Banco de provas</a></li>
-        </ol>
+      <div class="col  d-flex flex-row justify-content-around">
+        <!-- Card Assuntos -->
+        <div class="maincontainer p-2 mb-3  justify-content-center">
+          <div class="thecard">
+            <div class="thefront">
+              <head>
+                <img class="imgMat" src="img/files.svg" alt="">
+              </head>
+              <footer>
+                <h4>Temas + cobrados </h4>
+              </footer>
+            </div>
+            <div class="theback">Trás</div>
+          </div>
+        </div>
+        <!-- Card Edital verticalizado -->
+        <div class="maincontainer p-2 mb-3  justify-content-center">
+          <div class="thecard">
+            <div class="thefront">
+              <head>
+                <img class="imgMat" src="img/file-arrow-up.svg" alt="">
+              </head>
+              <footer>
+                <h4>Edital verticalizado </h4>
+              </footer>
+            </div>
+            <div class="theback">Trás</div>
+          </div>
+        </div>
+
+        <!-- Card Exercício resolvidos -->
+        <div class="maincontainer p-2 mb-3 d-flex justify-content-center">
+          <div class="thecard">
+            <div class="thefront">
+              <head>
+                <img class="imgMat" src="img/pencil-square.svg" alt="">
+              </head>
+              <footer>
+                <h4> Exercícios resolvidos </h4>
+              </footer>
+            </div>
+            <div class="theback">Trás</div>
+          </div>
+        </div>
+        <!-- Card Simulados -->
+        <div class="maincontainer p-2 mb-3 d-flex justify-content-center">
+          <div class="thecard">
+            <div class="thefront">
+              <head>
+                <img class="imgMat" src="img/back.svg" alt="">
+              </head>
+              <footer>
+                <h4> Simulados </h4>
+              </footer>
+            </div>
+            <div class="theback">Trás</div>
+          </div>
+        </div>
       </div>
-      <div class="col">
-        <h2>Segunda coluna</h2>
-      </div>
+    </div>  
+      
+    <div class="row corpo-texto-light">
+      <div class="col d-flex flex-row justify-content-around">
+        <!-- Card Vídeo aulas -->
+        <div class="maincontainer p-2 mb-3 d-flex justify-content-center">
+          <div class="thecard">
+            <div class="thefront">
+              <head>
+                <img class="imgMat" src="img/person-video.svg" alt="">
+              </head>
+              <footer>
+                <h4> Video aulas </h4>
+              </footer>
+            </div>
+            <div class="theback">Trás</div>
+          </div>
+        </div>
+        <!-- Card Vídeo resoluções -->
+        <div class="maincontainer p-2 mb-3 d-flex justify-content-center">
+          <div class="thecard">
+            <div class="thefront">
+              <head>
+                <img class="imgMat" src="img/person-video2.svg" alt="">
+              </head>
+              <footer>
+                <h4> Video resoluções </h4>
+              </footer>
+            </div>
+            <div class="theback">Trás</div>
+          </div>
+        </div>
+        <!-- Card PDF -->
+        <div class="maincontainer p-2 mb-3 d-flex justify-content-center">
+          <div class="thecard">
+            <div class="thefront">
+              <head>
+                <img class="imgMat" src="img/file-pdf.svg" alt="">
+              </head>
+              <footer>
+                <h4> PDF </h4>
+              </footer>
+            </div>
+            <div class="theback">Trás</div>
+          </div>
+        </div>
+        <!-- Banco de provas -->
+        <div class="maincontainer p-2 mb-3 d-flex justify-content-center">
+          <div class="thecard">
+            <div class="thefront">
+              <head>
+                <img class="imgMat" src="img/server.svg" alt="">
+              </head>
+              <footer>
+                <h4> Banco de provas </h4>
+              </footer>
+            </div>
+            <div class="theback">Trás</div>
+          </div>
+        </div>
     </div>
+
+      </div>
+    
     <div class="d-grid gap-2 p-3">
       <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
     </div>

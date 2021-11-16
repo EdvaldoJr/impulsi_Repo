@@ -1,12 +1,13 @@
 <!-- conteúdo -->
 <main>
-  <!-- Carousel -->
+  <!--1) Carousel -->
   <section class="container intro d-flex justify-content-center">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="IntroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- indicadores dos slides -->
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#IntroCarousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true" ></button>
+        <button type="button" data-bs-target="#IntroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#IntroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -30,17 +31,22 @@
           <p>Some representative placeholder content for the third slide.</p>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+      <!-- btn anterior -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#IntroCarousel" data-bs-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <i class="bi bi-chevron-compact-left"></i>  
+        <span class="visually-hidden" >Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <!-- btn seguinte -->
+      <button class="carousel-control-next" type="button" data-bs-target="#IntroCarousel" data-bs-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <i class="bi bi-chevron-compact-right"></i>  
         <span class="visually-hidden">Next</span>
       </button>
     </div>  
   </section>
 
+  <!--2) Planos -->
   <section class="planos container pb-2 mb-3 mt-3 section-light">
     <head>
       <h1 class="titulo-dark">Nossos Planos</h1>
@@ -82,7 +88,8 @@
     </div>
   </section>
 
-  <section class="metodo container  mb-3 section-dark ">  
+  <!--3) Metodologia -->
+  <section class="metodo container mb-3 section-dark ">  
     <div class="col-12">
       <head>
         <h1 class="titulo-light pt-2">Conheça nossa métodologia</h1> 
@@ -177,10 +184,11 @@
     <hr>
   </section>
 
+  <!--4) Objetivos -->
   <section class="objetivos container mb-3 section-light">
     <h1 class="titulo-dark">Defina seus objetivos</h1>
     <h3 class="subtitulo-dark"> Aonde você quer chegar?</h3>
-    <div class="img-wrapper container">
+    <div class="container">
       <svg version="1.1" viewBox="0 0 409.9 201.3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <image width="409.9" height="201.3" preserveAspectRatio="none" xlink:href="img/Objetivos.png"/>
         <g fill-opacity="0">
@@ -214,12 +222,13 @@
           </a>
         </g>
       </svg>
-      <div class="d-grid gap-2">
-        <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+      <div class="d-grid">
+        <button class="btn btn-primary" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
       </div>
     </div>
   </section>
 
+  <!--5) Material -->
   <section class="material container section-color-blue">   
     <head>
       <h1 class="titulo-light">Material didático</h1>
@@ -355,6 +364,7 @@
     <hr>
   </section>
 
+  <!--6) Team -->
   <section class="team container section-light">  
     <div class="col-12">
       <head>
@@ -367,6 +377,7 @@
     </div>
   </section>
   
+  <!--7) Depoimentos -->
   <section class="depoimentos container section-dark">
     <hr>
     <div class="col-12">
@@ -381,6 +392,7 @@
     <hr>
   </section>
 
+  <!--8) Serviços -->
   <section class="servicos container section-light">
     <div class="col-12 col-md-12 col-lg-12">
       <head>
@@ -400,6 +412,7 @@
     </div>
   </section>
 
+  <!--9) Concursos -->
   <section class="concursos container section-dark">
   <hr>  
     <head>
@@ -412,6 +425,7 @@
     <hr>   
   </section>
   
+  <!--10) Dúvidas -->
   <section class="duvidas container section-light">  
     <head class="col-12 col-md-12 col-lg-12">
       <h1 class="titulo-dark">O que você precisa saber!</h1>

@@ -57,29 +57,9 @@ a, u {
 }
 
 
-/* intro */
-.carousel-caption h5{
-    font-size: 2.5em;
-    text-shadow: #090909 2px 2px;
-}
 
-.carousel-caption p{
-    font-size: 1em;
-    text-shadow: #090909 2px 2px;
-}
 
-.carousel-indicators{
-    background-color: black;
-    opacity: 0.8;
-    text-align: center;   
-}
-
-.carousel-control-prev-icon span{
-    color: #222;
-    font-size: 3em;
-}
-
-/* Imagem de fundo do login */
+/* Login */
 .bg-img-login{ 
     width: 100vw;
     height: 100vh;
@@ -93,31 +73,6 @@ a, u {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 10px;
-}
-
-
-/* Home- Método */
-.metodo{
-    width: 100vw;
-    height: 100vh;
-    background-size: contain;
-    overflow-x: hidden;
-    background-repeat: no-repeat;
-}
-
-/* Home- Objetivos */
-.objetivos{
-    width: 100vw;
-    height: 120vh;
-    /* background-image: url("img/Objetivos.png");
-    background-repeat: no-repeat; */
-}
-
-.img-wrapper{
-    width: 100vw;
-    height: 100vh;
-    padding: 10px;
-    border:border-box;
 }
 
 /* Settings */
@@ -184,6 +139,30 @@ a, u {
 .btn-action{
     background-color: #ff6600 !important;
 }
+
+/* Intro */
+.carousel-caption h5{
+    font-size: 2.5em;
+    text-shadow: #090909 2px 2px;
+}
+
+.carousel-caption p{
+    font-size: 1em;
+    text-shadow: #090909 2px 2px;
+}
+
+.carousel-indicators{
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;   
+}
+
+/* btns prev, next */
+.bi-chevron-compact-left, .bi-chevron-compact-right{
+    color:whitesmoke;
+    font-size: 2em;
+    text-shadow:#090909 5px 5px;
+} 
 
 /* Seção Material */
 .maincontainer{

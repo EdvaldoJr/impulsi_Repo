@@ -364,32 +364,66 @@
     <hr>
   </section>
 
-  <!--6) Team -->
-  <section class="team container section-light">  
+  <!--6) Depoimentos -->
+  <section class="depoimentos container section-light">  
     <div class="col-12">
       <head>
-        <h1 class="titulo-dark">Team</h1>
-        <h3 class="subtitulo-dark">Estude com doutores</h3>
-      </head>
-    </div>
-    <div class="d-grid gap-2 p-3">
-      <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
-    </div>
-  </section>
-  
-  <!--7) Depoimentos -->
-  <section class="depoimentos container section-dark">
-    <hr>
-    <div class="col-12">
-      <head>
-        <h1 class="titulo-light">Depoimentos</h1>
-        <h3 class="subtitulo-light" >Veja os aprovados!!!</h3>
+        <h1 class="titulo-dark">Depoimentos</h1>
+        <h3 class="subtitulo-dark" >Veja os aprovados!!!</h3>
       </head>
     </div>
     <div class="d-grid gap-2 p-3">
         <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+    </div>
+  </section>
+  
+  <!--7) Team -->
+  <section class="team container section-dark">
+    <div class="col-12">
+      <head>
+        <h1 class="titulo-light">Team</h1>
+        <h3 class="subtitulo-light">Estude com doutores</h3>
+      </head>
+    </div>
+    <!-- 1 card sci -->
+    <div class="row">
+      <div class="container col containerTeam">
+        <div class="card cardTeam">
+          <div class="contentTeam">
+            <div class="imgBx"><img src="img/Einstein.png" alt=""></div>
+            <div class="contentBx corpo-texto-light">
+              <h3>Albert Einstein <br><span>Physicist</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li  style="--i:1"> <a href="#"><i class="bi bi-facebook"></i></a></li>
+            <li style="--i:2"> <a href="#"><i class="bi bi-twitter"></i></a></li>
+            <li style="--i:3"> <a href="#"><i class="bi bi-instagram"></i></a></li>
+          </ul>
+        </div>
       </div>
-    <hr>
+      
+      <!-- 2 card sci -->
+      <div class="container col containerTeam">
+        <div class="card cardTeam">
+          <div class="contentTeam">
+            <div class="imgBx"><img src="img/Feynman.png" alt=""></div>
+            <div class="contentBx corpo-texto-light">
+              <h3>Richard Feynman <br><span>Physicist</span></h3>
+            </div>
+          </div>
+          <ul class="sci">
+            <li style="--i:1"><a href="#"> <i class="bi bi-facebook"></i></a></li>
+            <li style="--i:2"><a href="#"> <i class="bi bi-twitter"></i></a></li>
+            <li style="--i:3"><a href="#"> <i class="bi bi-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-grid gap-2 p-3">
+      <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
+    </div>  
   </section>
 
   <!--8) Serviços -->

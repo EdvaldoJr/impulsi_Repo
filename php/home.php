@@ -229,7 +229,7 @@
   </section>
 
   <!--5) Material -->
-  <section class="material container section-color-blue">   
+  <section class="material container section-dark">   
     <head>
       <h1 class="titulo-light">Material didático</h1>
       <h3 class="subtitulo subtitulo-light">Nosso material</h3>
@@ -428,19 +428,21 @@
 
   <!--8) Serviços -->
   <section class="servicos container section-light">
-    <div class="col-12 col-md-12 col-lg-12">
-      <head>
-        <h1 class="titulo-dark">Nossos serviços</h1>
-        <h3 class="subtitulo-dark">Estude da forma correta!</h3>
-      </head>  
-        <ul>
-          <li><a href="">Mentorias</a></li>
-          <li><a href="">Cursos</a></li>
-          <li><a href="">Central de dúvidas</a></li>
-          <li><a href="">Diagnóstico pedagógico</a></li>
-          <li><a href="">Plano de estudos</a></li>
-          <li><a href="">Simulados</a></li>
-        </ul>
+    <head>
+      <h1 class="titulo-dark">Nossos serviços</h1>
+      <h3 class="subtitulo-dark">Estude da forma correta!</h3>
+    </head>  
+    
+    <div class="menuServ container ">
+      <div class="toggleServ"><img src="img/favicon-32x32.png" alt=""></div>
+      <li title="Mentorias" style="--i:0;"><a href="#"><i  class="bi bi-signpost-split"></i> </a></li>
+      <li title="Cursos" style="--i:1;"><a href="#"><i class="bi bi-journals"></i></a></li>
+      <li title="Central de dúvidas" style="--i:2;"><a href="#"><i class="bi bi-question-circle"></i></a></li>
+      <li title="Diagnóstico pedagógico" style="--i:3;"><a href="#"><i class="bi bi-eyeglasses"></i></a></li>
+      <li title="Plano de estudos" style="--i:4;"><a href="#"><i class="bi bi-newspaper"></i></a></li>
+      <li title="Simulados" style="--i:5;"><a href="#"><i class="bi bi-layers-half"></i></a></li>
+    </div>
+
     <div class="d-grid gap-2 p-3">
       <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
     </div>
@@ -448,11 +450,41 @@
 
   <!--9) Concursos -->
   <section class="concursos container section-dark">
-  <hr>  
+    <hr>  
     <head>
       <h1 class="titulo-light">Próximos concursos</h1>
-      <h3 class="subtitulo-light">Saia na frente!</h3>
+      <h3 class="subtitulo-light"><i class="bi bi-flag">Saia na frente! </i></h3>
     </head>
+    <br>
+
+    <ol class="list-group list-group-numbered">
+      <li class="list-group-item d-flex justify-content-between align-items-start active">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Concurso</div>
+          Digite um texto aqui...
+        </div>
+        <span class="badge bg-secondary rounded-pill">14</span>
+      </li>
+
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Concurso </div>
+          Digite um texto aqui...
+        </div>
+        <span class="badge bg-secondary rounded-pill">14</span>
+      </li>
+
+      <li class="list-group-item d-flex justify-content-between align-items-start disabled">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Concurso</div>
+          Digite um texto aqui...
+        </div>
+        <span class="badge bg-danger rounded-pill">New</span>
+      </li>
+    </ol>
+    
+    <br>
+    
     <div class="d-grid gap-2 p-3">
         <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
       </div>
@@ -462,12 +494,53 @@
   <!--10) Dúvidas -->
   <section class="duvidas container section-light">  
     <head class="col-12 col-md-12 col-lg-12">
-      <h1 class="titulo-dark">O que você precisa saber!</h1>
+      <h1 class="titulo-dark">O que você precisa saber ?</h1>
       <h3 class="subtitulo-dark">Tire suas dúvidas!</h3>
     </head>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <i class="bi bi-question-octagon"> Quem somos?</i>  
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <i class="bi bi-question-octagon"> O que fazemos?</i>  
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <i class="bi bi-link-45deg"> Junte-se a nós!</i>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="d-grid gap-2 p-3">
       <button class="btn btn-primary mb-1" type="button">Saiba mais <i class="bi bi-arrow-right-circle"></i></button>
     </div>
   </section>
     
+  
 </main>

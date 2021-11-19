@@ -25,7 +25,7 @@
                     <li><a class="dropdown-item" href="index.php?link=14"><i class="bi bi-patch-question"></i> Tira dúvidas</a></li>
                     
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="index.php?link=15"><i class="bi bi-layers-half"></i></i> Simulados</a></li>
+                    <li><a class="dropdown-item" href="index.php?link=15"><i class="bi bi-layers-half"></i> Simulados</a></li>
                     <li><a class="dropdown-item" href="index.php?link=16"><i class="bi bi-clipboard-check"></i> Correção de provas</a></li>
                     <li><a class="dropdown-item" href="index.php?link=17"><i class="bi bi-inboxes"></i> Provas anteriores</a></li>
                     <li><a class="dropdown-item" href="index.php?link=18"><i class="bi bi-check-circle"></i> Exercícios resolvidos</a></li>

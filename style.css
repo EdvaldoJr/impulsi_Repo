@@ -140,6 +140,27 @@ a, u {
     background-color: #ff6600 !important;
 }
 
+
+/* top-menu */
+.dropdown-item{
+    transition-duration: 0.2s;
+}
+
+.dropdown-item:hover{
+    color:#ff6600 !important;
+    font-size: 1.2em;
+}
+
+/* side-menu */
+.mat{
+    transition-duration: 0.2s;
+}
+
+.mat:hover{
+    color:#ff6600 !important;
+    font-size: 1.2em;
+}
+
 /* Intro */
 .carousel-caption h5{
     font-size: 2.5em;
@@ -414,4 +435,25 @@ a, u {
 
 .menuServ.active .toggleServ{
     transform:rotate(315deg)
+}
+
+/* Rodapé */
+.social-icons{
+    transition: all 0.2s;
+}
+
+.social-icons:hover{
+    color:#ff6600 !important;
+    font-size: 1.2em;
+    
+}
+
+@media (min-width: 768px) {
+    .rodapeLeft{
+        justify-content: left !important;
+    }
+
+    .rodapeRight{
+        justify-content: right !important;
+    }
 }

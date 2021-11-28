@@ -8,7 +8,4 @@
     {
         die("Falha na conexão!");
     }
-
-    // echo $conn;
-    echo "Conexão efetuada!";
 ?>

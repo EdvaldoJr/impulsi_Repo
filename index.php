@@ -74,7 +74,11 @@
                     $pag[22]="system/logout.php";
                     $pag[23]="system/signup.php";
                     $pag[24]="system/cadastrar.php";
-
+                    $pag[25]="php/area.php";
+                    $pag[26]="php/disciplinas.php";
+                    $pag[27]="php/topico.php";
+                    $pag[28]="php/modulos.php";
+                    $pag[29]="php/subtopico.php";
                     
                     // verifica se o arquivo existe; se não existir joga para home.
                     if(file_exists($pag[$link])){

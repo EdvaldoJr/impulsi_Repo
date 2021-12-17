@@ -6,7 +6,8 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Impulsi</title>
-        
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/61b4823e22.js" crossorigin="anonymous"></script>
         
         <!-- Font: Archivo Black  -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -77,8 +78,16 @@
                     $pag[25]="php/area.php";
                     $pag[26]="php/disciplinas.php";
                     $pag[27]="php/topico.php";
+                    $pag[33]="php/CRUD/topCRUD.php";
                     $pag[28]="php/modulos.php";
                     $pag[29]="php/subtopico.php";
+                    $pag[30]="php/CRUD/areaCRUD.php";
+                    $pag[31]="php/CRUD/discCRUD.php";
+                    $pag[32]="php/CRUD/modCRUD.php";
+                    $pag[34]="php/CRUD/discPorArea.php";
+                    $pag[35]="php/CRUD/discArea.php";
+                    $pag[36]="php/CRUD/discForm.php";
+
                     
                     // verifica se o arquivo existe; se não existir joga para home.
                     if(file_exists($pag[$link])){

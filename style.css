@@ -18,6 +18,10 @@ a, u {
     list-style: disc;
 }
 
+label{
+    display: block;
+}
+
 /*temas de cores*/
 /* Cor de fundo */
 

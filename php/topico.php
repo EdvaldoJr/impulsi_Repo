@@ -30,9 +30,11 @@
                             }
                         ?>
                 </select>
-                
                 <label for="topic">Digite o nome do tópico </label>
-                <input type="text" name="f_topic" id="topic" class="form-control mb-2" placeholder="Digite um tópico..." aria-describedby="helpId" maxlength="150" size="69" required>
+                <div class="input-group">
+                    <input type="text" name="f_topic" id="topic" class="form-control " placeholder="Digite um tópico..." aria-describedby="helpId" maxlength="150" size="69" required>
+                    <span class="btn btn-success" title="Editar tópicos"><a href="index.php?link=33"><i class="bi bi-pencil font-whitesmoke"></i></a></span>
+                </div>
                 
             <div class="d-grid gap-2">
                 <button class="btn btn-primary  my-3" type="submit" ><i class="bi bi-sd-card"></i> Salvar tópico </button>    

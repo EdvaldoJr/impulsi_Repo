@@ -438,7 +438,8 @@
       <li title="Mentorias" style="--i:0;"><a href="#"><i  class="bi bi-signpost-split"></i> </a></li>
       <li title="Cursos" style="--i:1;"><a href="#"><i class="bi bi-journals"></i></a></li>
       <li title="Central de dúvidas" style="--i:2;"><a href="#"><i class="bi bi-question-circle"></i></a></li>
-      <li title="Diagnóstico pedagógico" style="--i:3;"><a href="#"><i class="bi bi-eyeglasses"></i></a></li>
+      <!-- <li title="Diagnóstico pedagógico" style="--i:3;"><a href="#"><i class="bi bi-eyeglasses"></i></a></li> -->
+      <li title="Diagnóstico pedagógico" style="--i:3;"><a href="#"><i class="fas fa-stethoscope"></i></a></li>
       <li title="Plano de estudos" style="--i:4;"><a href="#"><i class="bi bi-newspaper"></i></a></li>
       <li title="Simulados" style="--i:5;"><a href="#"><i class="bi bi-layers-half"></i></a></li>
     </div>

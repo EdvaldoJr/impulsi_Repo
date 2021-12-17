@@ -39,10 +39,16 @@
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <li><a class="dropdown-item" href="index.php?link=20"><i class="bi bi-person-plus"> Inserir clientes</i> </a></li>
                 <li><a class="dropdown-item" href="index.php?link=25"><i class="bi bi-pin-map"></i> Área</a></li>
-                <li><a class="dropdown-item" href="index.php?link=26"><i class="bi bi-journal-text"></i> Disciplinas</a></li>
+                <li><a class="dropdown-item" href="index.php?link=30"><i class="bi bi-pencil"></i> Editar Área</a></li>
+                <li><a class="dropdown-item" href="index.php?link=35"><i class="bi bi-journal-check"></i> Seleciona área</a></li>
+                <li><a class="dropdown-item" href="index.php?link=26"><i class="bi bi-journals"></i> Cadastrar disciplina</a></li>
+                <li><a class="dropdown-item" href="index.php?link=31"><i class="bi bi-pencil"></i> Editar Disciplinas</a></li>
                 <li><a class="dropdown-item" href="index.php?link=28"><i class="bi bi-box"></i> Módulos</a></li>
+                <li><a class="dropdown-item" href="index.php?link=32"><i class="bi bi-pencil"></i> Editar Módulos</a></li>
                 <li><a class="dropdown-item" href="index.php?link=27"><i class="bi bi-list-ul"></i> Tópicos</a></li>
+                <li><a class="dropdown-item" href="index.php?link=33"><i class="bi bi-pencil"></i> Editar tópicos</a></li>
                 <li><a class="dropdown-item" href="index.php?link=29"><i class="bi bi-list-nested"></i> Sub-tópicos</a></li>
+                <li><a class="dropdown-item" href="index.php?link=36"><i class="bi bi-list-nested"></i> discForm </a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
         </div>

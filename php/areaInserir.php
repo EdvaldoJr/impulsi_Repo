@@ -9,10 +9,9 @@
     $sql = "INSERT INTO tbAreas (`area_id`, `area_nome`) VALUES (NULL, '$area')";
 
     // Aplica o SQL no bd
-    $query_areas = mysqli_query($conn,$sql);
+    $query_areas = mysqli_query($conn,$sql) or die(mysqli_error($conn));
     
     // volta para a página area.php
-    header('location:area.php')
+    header('location:index.php?link=25')
 ?>
-
 <h1>Inserir área</h1>
